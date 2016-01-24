@@ -16,7 +16,7 @@ After being on the edge of madness I had had enough. I went for a fresh install 
 
 All that was left was to handle the freqeuent crashes that had racked my netbook since my first arch install. Turns out this is a kernel bug that troubles all Baytrail netbooks : [kernel_bugzilla](https://bugzilla.kernel.org/show_bug.cgi?id=109051). The kernel parameter *intel_idle.max_cstate* is reported to be a good workaround for this bug, at the cost of battery-life. Read the documentation and got this in place. Thanks to arch, getting my hands dirty is not something I'm afraid of any longer.
 
-I haven't experienced a single crash on my X205TA on kernel 4.3.3-3, with the above parameter in place. Curiously enough, the linux-lts kernel in arch repos doesn't last more than a couple of minutes.
+I haven't experienced a single crash yet on my X205TA on kernel 4.3.3-3, with the above parameter in place. Curiously enough, the linux-lts kernel in arch repos doesn't last more than a couple of minutes.
 
 So grub was set up nice and proper to load the windows bootloader, but here's what it spewed up : 
 > Your PC needs to be repaired 
